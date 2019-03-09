@@ -21,3 +21,7 @@ def postion_taken?(board, index)
     return true
   end
 end
+
+def input_to_index(user_input)
+  user_input - 1
+end
